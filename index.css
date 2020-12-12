@@ -37,7 +37,7 @@ body{
     @media(max-width:767px){
         .navbar-brand span {   color:#e9edf3f3;
             font-family: 'Trocchi', serif; 
-            font-size: 30px; 
+            font-size: 26px; 
             font-weight: 200; 
             line-height: 40px;
             margin:11px;
