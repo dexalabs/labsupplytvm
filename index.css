@@ -67,10 +67,10 @@ body{
         font-weight: 600;
     }
 }
-.navbar-toggler-icon {
-    color:#b31217 !important;
+/* .navbar-toggler-icon {
+    color:#e7e3e3 !important;
     border: 3px solid rgb(58, 56, 56);
-}
+} */
 @media(max-width:767px){
     .promo-title{
         font-size: 35px !important;
@@ -231,6 +231,9 @@ body{
     color: black;
     transform: translateY(-10px);
 }
+#map-section{
+    margin-top: 15px;
+}
 /* <-----------------------------Footer section--------------> */
 #footer-section{
     background-image: linear-gradient(#000000,#ffff);
@@ -310,7 +313,7 @@ body{
     }
 }
 @media(max-width:767px){
-    .address{
+        .address{
         margin-left: 100px;
     }
 }
@@ -323,4 +326,8 @@ hr{
     padding-bottom: 20px;
     text-align: center;
 }
-    
+@media(max-width:767px){
+    .contact-us{
+        color: #300858 !important;
+    }
+}
